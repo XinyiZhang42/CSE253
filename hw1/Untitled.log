@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  16 JAN 2016 09:53
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  17 JAN 2016 18:07
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -259,137 +259,344 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
 LaTeX Info: Redefining \[ on input line 2666.
 LaTeX Info: Redefining \] on input line 2667.
 )
+(/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+)
+\Gin@req@height=\dimen118
+\Gin@req@width=\dimen119
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count115
+\lst@gtempboxa=\box30
+\lst@token=\toks20
+\lst@length=\count116
+\lst@currlwidth=\dimen120
+\lst@column=\count117
+\lst@pos=\count118
+\lst@lostspace=\dimen121
+\lst@width=\dimen122
+\lst@newlines=\count119
+\lst@lineno=\count120
+\lst@maxwidth=\dimen123
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2007/02/22 1.4 (Carsten Heinz)
+\c@lstnumber=\count121
+\lst@skipnumbers=\count122
+\lst@framebox=\box31
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2007/02/22 1.4 listings configuration
+))
+Package: listings 2007/02/22 1.4 (Carsten Heinz)
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2004/09/05 1.3 listings language file
+)
 (./Untitled.aux)
 \openout1 = `Untitled.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 55.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 36.
  (/usr/local/texlive/2012/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
-\AtBeginShipoutBox=\box30
+\AtBeginShipoutBox=\box32
  (/usr/local/texlive/2012/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count115
-\scratchdimen=\dimen118
-\scratchbox=\box31
-\nofMPsegments=\count116
-\nofMParguments=\count117
-\everyMPshowfont=\toks20
-\MPscratchCnt=\count118
-\MPscratchDim=\dimen119
-\MPnumerator=\count119
-\makeMPintoPDFobject=\count120
-\everyMPtoPDFconversion=\toks21
+\scratchcounter=\count123
+\scratchdimen=\dimen124
+\scratchbox=\box33
+\nofMPsegments=\count124
+\nofMParguments=\count125
+\everyMPshowfont=\toks21
+\MPscratchCnt=\count126
+\MPscratchDim=\dimen125
+\MPnumerator=\count127
+\makeMPintoPDFobject=\count128
+\everyMPtoPDFconversion=\toks22
 )
-Package hyperref Info: Link coloring OFF on input line 55.
+Package hyperref Info: Link coloring OFF on input line 36.
  (/usr/local/texlive/2012/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
 
 (/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count121
+\c@section@level=\count129
 )
-LaTeX Info: Redefining \ref on input line 55.
-LaTeX Info: Redefining \pageref on input line 55.
-LaTeX Info: Redefining \nameref on input line 55.
+LaTeX Info: Redefining \ref on input line 36.
+LaTeX Info: Redefining \pageref on input line 36.
+LaTeX Info: Redefining \nameref on input line 36.
 
 (./Untitled.out) (./Untitled.out)
 \@outlinefile=\write3
 \openout3 = `Untitled.out'.
 
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+)
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+\c@lstlisting=\count130
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 59.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 40.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 59.
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 59.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 40.
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 40.
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 60.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 41.
  [1{/usr/local/texlive/2012/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
-]
-Underfull \hbox (badness 10000) in paragraph at lines 243--246
-
- []
-
-[2]
-Underfull \hbox (badness 10000) in paragraph at lines 249--252
+] [2]
+Underfull \hbox (badness 10000) in paragraph at lines 228--231
 
  []
 
 
-Underfull \vbox (badness 1158) has occurred while \output is active []
+Underfull \hbox (badness 10000) in paragraph at lines 234--237
 
- [3]
-[4]
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 399.
+ []
 
- (/usr/local/texlive/2012/texmf-dist/tex/latex/psnfss/omsptm.fd
+[3]
+Underfull \hbox (badness 10000) in paragraph at lines 319--320
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 339--341
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 346--347
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 352--353
+
+ []
+
+<img/figure1.png, id=124, 586.8324pt x 442.2924pt>
+File: img/figure1.png Graphic file (type png)
+ <use img/figure1.png>
+Package pdftex.def Info: img/figure1.png used on input line 360.
+(pdftex.def)             Requested size: 216.81pt x 163.40266pt.
+
+<img/figure2.png, id=126, 586.8324pt x 442.2924pt>
+File: img/figure2.png Graphic file (type png)
+ <use img/figure2.png>
+Package pdftex.def Info: img/figure2.png used on input line 365.
+(pdftex.def)             Requested size: 216.81pt x 163.40266pt.
+
+<img/figure3.png, id=127, 586.8324pt x 442.2924pt>
+File: img/figure3.png Graphic file (type png)
+ <use img/figure3.png>
+Package pdftex.def Info: img/figure3.png used on input line 370.
+(pdftex.def)             Requested size: 216.81pt x 163.40266pt.
+
+<img/figure4.png, id=128, 586.8324pt x 442.2924pt>
+File: img/figure4.png Graphic file (type png)
+ <use img/figure4.png>
+Package pdftex.def Info: img/figure4.png used on input line 375.
+(pdftex.def)             Requested size: 216.81pt x 163.40266pt.
+
+<img/figure5.png, id=129, 586.8324pt x 442.2924pt>
+File: img/figure5.png Graphic file (type png)
+ <use img/figure5.png>
+Package pdftex.def Info: img/figure5.png used on input line 380.
+(pdftex.def)             Requested size: 216.81pt x 163.40266pt.
+
+<img/figure6.png, id=130, 586.8324pt x 442.2924pt>
+File: img/figure6.png Graphic file (type png)
+ <use img/figure6.png>
+Package pdftex.def Info: img/figure6.png used on input line 385.
+(pdftex.def)             Requested size: 216.81pt x 163.40266pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 391--392
+
+ []
+
+[4] [5 <./img/figure1.png> <./img/figure2.png> <./img/figure3.png>] [6 <./img/f
+igure4.png> <./img/figure5.png> <./img/figure6.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 445--446
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [7]
+<img/data.png, id=158, 562.1pt x 420.57124pt>
+File: img/data.png Graphic file (type png)
+ <use img/data.png>
+Package pdftex.def Info: img/data.png used on input line 476.
+(pdftex.def)             Requested size: 289.07999pt x 216.29178pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 479--480
+
+ []
+
+
+Overfull \hbox (22.51929pt too wide) in paragraph at lines 498--499
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[8 <./img/data.png (PNG copy)>]
+LaTeX Font Info:    Try loading font information for OML+ptm on input line 513.
+
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/psnfss/omlptm.fd
+File: omlptm.fd 
+)
+LaTeX Font Info:    Font shape `OML/ptm/m/n' in size <10> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 513.
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 518.
+
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 399.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 518.
 
-Underfull \hbox (badness 10000) in paragraph at lines 447--449
-[]\OT1/ptm/m/n/10 Install the Mi-crosoft Save as PDF Of-fice 2007 Add-in from [
-]$\OT1/pcr/m/n/10 http :
+Overfull \hbox (112.5202pt too wide) in paragraph at lines 518--519
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 447--449
-\OT1/pcr/m/n/10 / / www . microsoft . com / downloads / details . aspx ? displa
-ylang =
+Overfull \hbox (112.5202pt too wide) in paragraph at lines 519--520
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-[5]
-LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 515.
- [6]
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 530.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 533.
- [7]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 533.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [9]
+Overfull \hbox (76.51984pt too wide) in paragraph at lines 582--583
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (130.52039pt too wide) in paragraph at lines 583--584
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [10]
+Overfull \hbox (82.5199pt too wide) in paragraph at lines 628--629
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (10.51917pt too wide) in paragraph at lines 632--633
+[][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (4.5191pt too wide) in paragraph at lines 642--644
+[][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (22.51929pt too wide) in paragraph at lines 650--651
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[11]
+Overfull \hbox (94.52002pt too wide) in paragraph at lines 686--687
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+] 
+ []
+
+
+Overfull \hbox (148.52057pt too wide) in paragraph at lines 687--688
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (154.52063pt too wide) in paragraph at lines 714--715
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (46.51953pt too wide) in paragraph at lines 735--737
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [12]
+Overfull \hbox (64.51971pt too wide) in paragraph at lines 769--771
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [13]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 800.
+
+[14]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 800.
  (./Untitled.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 533.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 533.
-
-
-Package rerunfilecheck Warning: File `Untitled.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Untitled.out':
-(rerunfilecheck)             Before: 9EB518CF9DB85412E25D13ACFBBEF952;984
-(rerunfilecheck)             After:  4DB97DC960E33905571309579C075764;1034.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 533.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 800.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 800.
+Package rerunfilecheck Info: File `Untitled.out' has not changed.
+(rerunfilecheck)             Checksum: 712AD644986D9AFA0BD1A05C691E71F1;994.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 800.
  ) 
 Here is how much of TeX's memory you used:
- 6010 strings out of 493488
- 85532 string characters out of 3141326
- 187702 words of memory out of 3000000
- 9216 multiletter control sequences out of 15000+200000
- 29111 words of font info for 54 fonts, out of 3000000 for 9000
+ 7993 strings out of 493488
+ 114980 string characters out of 3141326
+ 303564 words of memory out of 3000000
+ 10856 multiletter control sequences out of 15000+200000
+ 15418 words of font info for 32 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
- 37i,12n,39p,281b,437s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 37i,12n,40p,291b,1714s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/local/texlive/2012/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/te
 xlive/2012/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex7.pfb></usr/local
@@ -405,12 +612,12 @@ xmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2012/texm
 f-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2012/texmf-dist/f
 onts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2012/texmf-dist/fonts/ty
 pe1/urw/times/utmb8a.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/urw/ti
-mes/utmbi8a.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/urw/times/utmr8
-a.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Untitled.pdf (7 pages, 196221 bytes).
+mes/utmr8a.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/urw/times/utmri8
+a.pfb>
+Output written on Untitled.pdf (14 pages, 330935 bytes).
 PDF statistics:
- 219 PDF objects out of 1000 (max. 8388607)
- 191 compressed objects within 2 object streams
- 46 named destinations out of 1000 (max. 500000)
- 129 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 620 PDF objects out of 1000 (max. 8388607)
+ 569 compressed objects within 6 object streams
+ 356 named destinations out of 1000 (max. 500000)
+ 180 words of extra memory for PDF output out of 10000 (max. 10000000)
 
