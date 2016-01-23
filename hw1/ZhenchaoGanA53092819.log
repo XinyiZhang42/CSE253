@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  17 JAN 2016 18:51
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  17 JAN 2016 18:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**Untitled.tex
-(./Untitled.tex
+**ZhenchaoGanA53092819.tex
+(./ZhenchaoGanA53092819.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, ge
 rman-x-2012-05-30, ngerman-x-2012-05-30, afrikaans, ancientgreek, ibycus, arabi
@@ -304,8 +304,8 @@ Package: listings 2007/02/22 1.4 (Carsten Heinz)
 (/usr/local/texlive/2012/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2004/09/05 1.3 listings language file
 )
-(./Untitled.aux)
-\openout1 = `Untitled.aux'.
+No file ZhenchaoGanA53092819.aux.
+\openout1 = `ZhenchaoGanA53092819.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 36.
 LaTeX Font Info:    ... okay on input line 36.
@@ -322,11 +322,12 @@ LaTeX Font Info:    ... okay on input line 36.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 36.
 LaTeX Font Info:    ... okay on input line 36.
 LaTeX Font Info:    Try loading font information for OT1+ptm on input line 36.
- (/usr/local/texlive/2012/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+(/usr/local/texlive/2012/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 \AtBeginShipoutBox=\box32
- (/usr/local/texlive/2012/texmf-dist/tex/context/base/supp-pdf.mkii
+
+(/usr/local/texlive/2012/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count123
 \scratchdimen=\dimen124
@@ -352,10 +353,8 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 36.
 LaTeX Info: Redefining \pageref on input line 36.
 LaTeX Info: Redefining \nameref on input line 36.
-
-(./Untitled.out) (./Untitled.out)
 \@outlinefile=\write3
-\openout3 = `Untitled.out'.
+\openout3 = `ZhenchaoGanA53092819.out'.
 
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
@@ -417,37 +416,37 @@ Underfull \hbox (badness 10000) in paragraph at lines 345--346
 
  []
 
-<img/figure1.png, id=124, 586.8324pt x 442.2924pt>
+<img/figure1.png, id=57, 586.8324pt x 442.2924pt>
 File: img/figure1.png Graphic file (type png)
  <use img/figure1.png>
 Package pdftex.def Info: img/figure1.png used on input line 353.
 (pdftex.def)             Requested size: 216.81pt x 163.40266pt.
 
-<img/figure2.png, id=126, 586.8324pt x 442.2924pt>
+<img/figure2.png, id=59, 586.8324pt x 442.2924pt>
 File: img/figure2.png Graphic file (type png)
  <use img/figure2.png>
 Package pdftex.def Info: img/figure2.png used on input line 358.
 (pdftex.def)             Requested size: 216.81pt x 163.40266pt.
 
-<img/figure3.png, id=127, 586.8324pt x 442.2924pt>
+<img/figure3.png, id=60, 586.8324pt x 442.2924pt>
 File: img/figure3.png Graphic file (type png)
  <use img/figure3.png>
 Package pdftex.def Info: img/figure3.png used on input line 363.
 (pdftex.def)             Requested size: 216.81pt x 163.40266pt.
 
-<img/figure4.png, id=128, 586.8324pt x 442.2924pt>
+<img/figure4.png, id=61, 586.8324pt x 442.2924pt>
 File: img/figure4.png Graphic file (type png)
  <use img/figure4.png>
 Package pdftex.def Info: img/figure4.png used on input line 368.
 (pdftex.def)             Requested size: 216.81pt x 163.40266pt.
 
-<img/figure5.png, id=129, 586.8324pt x 442.2924pt>
+<img/figure5.png, id=62, 586.8324pt x 442.2924pt>
 File: img/figure5.png Graphic file (type png)
  <use img/figure5.png>
 Package pdftex.def Info: img/figure5.png used on input line 373.
 (pdftex.def)             Requested size: 216.81pt x 163.40266pt.
 
-<img/figure6.png, id=130, 586.8324pt x 442.2924pt>
+<img/figure6.png, id=63, 586.8324pt x 442.2924pt>
 File: img/figure6.png Graphic file (type png)
  <use img/figure6.png>
 Package pdftex.def Info: img/figure6.png used on input line 378.
@@ -467,7 +466,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 438--439
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [7]
-<img/data.png, id=158, 562.1pt x 420.57124pt>
+<img/data.png, id=100, 562.1pt x 420.57124pt>
 File: img/data.png Graphic file (type png)
  <use img/data.png>
 Package pdftex.def Info: img/data.png used on input line 469.
@@ -582,21 +581,31 @@ Package atveryend Info: Empty hook `BeforeClearDocument' on input line 793.
 
 [14]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 793.
- (./Untitled.aux)
+ (./ZhenchaoGanA53092819.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 793.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 793.
-Package rerunfilecheck Info: File `Untitled.out' has not changed.
-(rerunfilecheck)             Checksum: 712AD644986D9AFA0BD1A05C691E71F1;994.
+
+
+Package rerunfilecheck Warning: File `ZhenchaoGanA53092819.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `ZhenchaoGanA53092819.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  712AD644986D9AFA0BD1A05C691E71F1;994.
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 793.
  ) 
 Here is how much of TeX's memory you used:
- 7993 strings out of 493488
- 114980 string characters out of 3141326
+ 7968 strings out of 493488
+ 114721 string characters out of 3141326
  303574 words of memory out of 3000000
- 10856 multiletter control sequences out of 15000+200000
+ 10837 multiletter control sequences out of 15000+200000
  15418 words of font info for 32 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
- 37i,12n,40p,291b,1714s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 37i,12n,40p,303b,1714s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/local/texlive/2012/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/te
 xlive/2012/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex7.pfb></usr/local
@@ -614,10 +623,10 @@ onts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2012/texmf-dist/fonts/ty
 pe1/urw/times/utmb8a.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/urw/ti
 mes/utmr8a.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/urw/times/utmri8
 a.pfb>
-Output written on Untitled.pdf (14 pages, 331490 bytes).
+Output written on ZhenchaoGanA53092819.pdf (14 pages, 330563 bytes).
 PDF statistics:
- 620 PDF objects out of 1000 (max. 8388607)
- 569 compressed objects within 6 object streams
+ 565 PDF objects out of 1000 (max. 8388607)
+ 514 compressed objects within 6 object streams
  356 named destinations out of 1000 (max. 500000)
- 180 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 36 words of extra memory for PDF output out of 10000 (max. 10000000)
 

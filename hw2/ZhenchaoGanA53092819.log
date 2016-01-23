@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  17 JAN 2016 18:51
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  23 JAN 2016 12:39
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**Untitled.tex
-(./Untitled.tex
+**ZhenchaoGanA53092819.tex
+(./ZhenchaoGanA53092819.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, ge
 rman-x-2012-05-30, ngerman-x-2012-05-30, afrikaans, ancientgreek, ibycus, arabi
@@ -304,8 +304,8 @@ Package: listings 2007/02/22 1.4 (Carsten Heinz)
 (/usr/local/texlive/2012/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2004/09/05 1.3 listings language file
 )
-(./Untitled.aux)
-\openout1 = `Untitled.aux'.
+(./ZhenchaoGanA53092819.aux)
+\openout1 = `ZhenchaoGanA53092819.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 36.
 LaTeX Font Info:    ... okay on input line 36.
@@ -322,11 +322,13 @@ LaTeX Font Info:    ... okay on input line 36.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 36.
 LaTeX Font Info:    ... okay on input line 36.
 LaTeX Font Info:    Try loading font information for OT1+ptm on input line 36.
- (/usr/local/texlive/2012/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 \AtBeginShipoutBox=\box32
- (/usr/local/texlive/2012/texmf-dist/tex/context/base/supp-pdf.mkii
+
+(/usr/local/texlive/2012/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count123
 \scratchdimen=\dimen124
@@ -353,9 +355,9 @@ LaTeX Info: Redefining \ref on input line 36.
 LaTeX Info: Redefining \pageref on input line 36.
 LaTeX Info: Redefining \nameref on input line 36.
 
-(./Untitled.out) (./Untitled.out)
+(./ZhenchaoGanA53092819.out) (./ZhenchaoGanA53092819.out)
 \@outlinefile=\write3
-\openout3 = `Untitled.out'.
+\openout3 = `ZhenchaoGanA53092819.out'.
 
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
@@ -385,239 +387,65 @@ File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 42.
+Missing character: There is no Î in font ptmr7t!
+Missing character: There is no ¸ in font ptmr7t!
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--68
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 116--117
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
  [1{/usr/local/texlive/2012/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
-] [2]
-Underfull \hbox (badness 10000) in paragraph at lines 221--224
+]
+Underfull \hbox (badness 10000) in paragraph at lines 137--138
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 227--230
-
- []
-
-[3]
-Underfull \hbox (badness 10000) in paragraph at lines 312--313
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 332--334
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 339--340
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 345--346
-
- []
-
-<img/figure1.png, id=124, 586.8324pt x 442.2924pt>
-File: img/figure1.png Graphic file (type png)
- <use img/figure1.png>
-Package pdftex.def Info: img/figure1.png used on input line 353.
-(pdftex.def)             Requested size: 216.81pt x 163.40266pt.
-
-<img/figure2.png, id=126, 586.8324pt x 442.2924pt>
-File: img/figure2.png Graphic file (type png)
- <use img/figure2.png>
-Package pdftex.def Info: img/figure2.png used on input line 358.
-(pdftex.def)             Requested size: 216.81pt x 163.40266pt.
-
-<img/figure3.png, id=127, 586.8324pt x 442.2924pt>
-File: img/figure3.png Graphic file (type png)
- <use img/figure3.png>
-Package pdftex.def Info: img/figure3.png used on input line 363.
-(pdftex.def)             Requested size: 216.81pt x 163.40266pt.
-
-<img/figure4.png, id=128, 586.8324pt x 442.2924pt>
-File: img/figure4.png Graphic file (type png)
- <use img/figure4.png>
-Package pdftex.def Info: img/figure4.png used on input line 368.
-(pdftex.def)             Requested size: 216.81pt x 163.40266pt.
-
-<img/figure5.png, id=129, 586.8324pt x 442.2924pt>
-File: img/figure5.png Graphic file (type png)
- <use img/figure5.png>
-Package pdftex.def Info: img/figure5.png used on input line 373.
-(pdftex.def)             Requested size: 216.81pt x 163.40266pt.
-
-<img/figure6.png, id=130, 586.8324pt x 442.2924pt>
-File: img/figure6.png Graphic file (type png)
- <use img/figure6.png>
-Package pdftex.def Info: img/figure6.png used on input line 378.
-(pdftex.def)             Requested size: 216.81pt x 163.40266pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 384--385
-
- []
-
-[4] [5 <./img/figure1.png> <./img/figure2.png> <./img/figure3.png>] [6 <./img/f
-igure4.png> <./img/figure5.png> <./img/figure6.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 438--439
-
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [7]
-<img/data.png, id=158, 562.1pt x 420.57124pt>
-File: img/data.png Graphic file (type png)
- <use img/data.png>
-Package pdftex.def Info: img/data.png used on input line 469.
-(pdftex.def)             Requested size: 289.07999pt x 216.29178pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 472--473
-
- []
-
-
-Overfull \hbox (22.51929pt too wide) in paragraph at lines 491--492
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-[8 <./img/data.png (PNG copy)>]
-LaTeX Font Info:    Try loading font information for OML+ptm on input line 506.
-
-
-(/usr/local/texlive/2012/texmf-dist/tex/latex/psnfss/omlptm.fd
-File: omlptm.fd 
-)
-LaTeX Font Info:    Font shape `OML/ptm/m/n' in size <10> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 506.
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 511.
-
-
-(/usr/local/texlive/2012/texmf-dist/tex/latex/psnfss/omsptm.fd
-File: omsptm.fd 
-)
-LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 511.
-
-Overfull \hbox (112.5202pt too wide) in paragraph at lines 511--512
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (112.5202pt too wide) in paragraph at lines 512--513
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [9]
-Overfull \hbox (76.51984pt too wide) in paragraph at lines 575--576
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (130.52039pt too wide) in paragraph at lines 576--577
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [10]
-Overfull \hbox (82.5199pt too wide) in paragraph at lines 621--622
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (10.51917pt too wide) in paragraph at lines 625--626
-[][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (4.5191pt too wide) in paragraph at lines 635--637
-[][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (22.51929pt too wide) in paragraph at lines 643--644
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-[11]
-Overfull \hbox (94.52002pt too wide) in paragraph at lines 679--680
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-] 
- []
-
-
-Overfull \hbox (148.52057pt too wide) in paragraph at lines 680--681
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (154.52063pt too wide) in paragraph at lines 707--708
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (46.51953pt too wide) in paragraph at lines 728--730
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [12]
-Overfull \hbox (64.51971pt too wide) in paragraph at lines 762--764
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [13]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 793.
-
-[14]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 793.
- (./Untitled.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 793.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 793.
-Package rerunfilecheck Info: File `Untitled.out' has not changed.
-(rerunfilecheck)             Checksum: 712AD644986D9AFA0BD1A05C691E71F1;994.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 793.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 166.
+[2]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 166.
+ (./ZhenchaoGanA53092819.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 166.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 166.
+Package rerunfilecheck Info: File `ZhenchaoGanA53092819.out' has not changed.
+(rerunfilecheck)             Checksum: AF58B3E9EB81519F28A31A9237D8467D;91.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 166.
  ) 
 Here is how much of TeX's memory you used:
- 7993 strings out of 493488
- 114980 string characters out of 3141326
- 303574 words of memory out of 3000000
- 10856 multiletter control sequences out of 15000+200000
- 15418 words of font info for 32 fonts, out of 3000000 for 9000
+ 7387 strings out of 493488
+ 106796 string characters out of 3141326
+ 231574 words of memory out of 3000000
+ 10609 multiletter control sequences out of 15000+200000
+ 13734 words of font info for 30 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
- 37i,12n,40p,291b,1714s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 37i,12n,40p,281b,343s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/local/texlive/2012/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/te
-xlive/2012/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex7.pfb></usr/local
-/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/
-texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/te
-xlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texl
-ive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texliv
-e/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2
-012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2012
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2012/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2012/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2012/texm
-f-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2012/texmf-dist/f
-onts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2012/texmf-dist/fonts/ty
-pe1/urw/times/utmb8a.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/urw/ti
-mes/utmr8a.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/urw/times/utmri8
-a.pfb>
-Output written on Untitled.pdf (14 pages, 331490 bytes).
+xlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/tex
+live/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texli
+ve/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive
+/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2
+012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2012
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2012/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2012/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2012/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2012/texmf-d
+ist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2012/texmf-dist/font
+s/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1
+/urw/times/utmb8a.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/urw/times
+/utmr8a.pfb>
+Output written on ZhenchaoGanA53092819.pdf (2 pages, 138466 bytes).
 PDF statistics:
- 620 PDF objects out of 1000 (max. 8388607)
- 569 compressed objects within 6 object streams
- 356 named destinations out of 1000 (max. 500000)
- 180 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 95 PDF objects out of 1000 (max. 8388607)
+ 76 compressed objects within 1 object stream
+ 14 named destinations out of 1000 (max. 500000)
+ 17 words of extra memory for PDF output out of 10000 (max. 10000000)
 
