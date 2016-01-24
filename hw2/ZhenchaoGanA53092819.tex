@@ -9,7 +9,7 @@
 \usepackage{listings}             % Include the listings-package
 \lstset{language=Python}          % Set your language (you can change the language for each code-block optionally)
 
-\title{CSE253 Homework 2  \\ Enroll date : 9pm 15 Jan. }
+\title{CSE253 Homework 2}
 
 
 \author{
@@ -157,10 +157,29 @@ T is the target, Y is output. Assuming $Z : 1 \times \ell$
 
 \begin{equation}
     \begin{array}{rcl}
-      	 w_{HO} & = & w_{HO} + \alpha Z^T \cdot (T - Y) \\
+      	 w_{HO} & = & w_{HO} + \alpha * ( (T - Y)^T \cdot Z) \\
 	 w_{IH} & = & w_{IH} + \alpha X^T  \cdot (  Z * ( (1)_{1 \times \ell} - Z)   * (   (T - Y) \cdot W_{HO}^T )     )
     \end{array}
 \end{equation}
 
+(d) \\ i.
+I use scipy to zscore raw data. \\
+
+ii. The gradient using numerical differences with the one using backpropagation is very close. So my algorithm produce right gradient.
+
+iii. First, I use Normal distribution with scale 0.1 to initialize parameters. Then I divide my data into 30 racks and run training on these racks individually instead of the total data. I also test different iteration numbers and different learning rate.
+
+\begin{figure}[htbp] %  figure placement: here, top, bottom, or page
+   \centering
+   \includegraphics[width=5in]{img/p4.png} 
+\end{figure}
+
+\pagebreak
+
+(e) \\
+\begin{figure}[htbp] %  figure placement: here, top, bottom, or page
+   \centering
+   \includegraphics[width=5in]{img/p5.png} 
+\end{figure}
 
 \end{document}
