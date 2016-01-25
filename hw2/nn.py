@@ -60,11 +60,16 @@ class NN:
             self.teacher[labels[i]][i] = 1
 
         self.nlayer1 = 50;
+        self.nlayer2 = 50;
 
         #self.weights0 = np.zeros((self.nlayer1, dimension))
         #self.weights1 = np.zeros((nclass, self.nlayer1+1))
         self.weights0 = np.random.normal(0, 0.1, size = (self.nlayer1, dimension))
-        self.weights1 = np.random.normal(0, 0.1, size = (self.nclass, self.nlayer1+1))
+        self.weights1 = np.random.normal(0, 0.1, size = (self.nlayer2, self.nlayer1+1))
+        self.weights2 = np.random.normal(0, 0.1, size = (self.nclass, self.nlayer2+1))
+
+        self.pweights0 = np.zeros((self.nlayer1, dimension))
+        self.pweights1 = np.zeros((nclass, self.nlayer1+1))
 
     def train(self, iterations, _lambda = 0.001):
 
@@ -84,26 +89,51 @@ class NN:
                 teacher = self.teacher[:, start:end]
 
                 z1 = self.sigmoid( (self.weights0).dot(data.transpose()) )
-                oldz1 = z1
+                #z1 = np.tanh( (self.weights0).dot(data.transpose()) )
+                #z1 = (self.weights0).dot(data.transpose())
+                #z1[z1 < 0] = 0
+
+                #oldz1 = z1
                 z1 = np.insert(z1, 0, 1, axis = 0)
+                #self.z1 = z1
+
+                z2 = self.sigmoid( (self.weights1).dot(z1) )
+                z2 = np.insert(z2, 0, 1, axis = 0)
+                mm = len(z2)
+                nn = len(z2[0])
+
+                output = self.entropy(z2)
+
+                self.weights2 = self.weights2 + self.step * ((teacher - output).dot(z2.transpose()))
+
+                delta1 = ( z2 * (np.ones((mm, nn)) - z2) * ( self.weights2.transpose().dot(teacher - output))    )
+
+                self.weights1 = self.weights1 + (self.step *  delta1.dot(z1.transpose() ) )[1:]
+
+                z1 = z1[1:]
                 m = len(z1)
                 n = len(z1[0])
-                self.z1 = z1
-                output = self.entropy(z1)
 
-                #self.weights1 = self.weights1 + self.step * ((teacher - output).dot(z1.transpose()))
-                #self.weights0 = self.weights0 + (self.step * ( z1 * (np.ones((m, n)) - z1) * ( self.weights1.transpose().dot(teacher - output))    ).dot(data) )[1:]
+                self.weights0 = self.weights0 + (self.step * ( z1 * (np.ones((m, n)) - z1) * ( self.weights1.dot(delta1))    ).dot(data)  )
+                #self.weights0 = self.weights0 + (self.step * ( (    (np.ones((m, n)) - (np.tanh(z1)) ) * (np.ones((m, n)) + (np.tanh(z1)) )  ) * ( self.weights1.transpose().dot(teacher - output))   ).dot(data) )[1:]
+                #z1[z1 > 0] = 1
+                #self.weights0 = self.weights0 + (self.step * ( z1 * ( self.weights1.transpose().dot(teacher - output))    ).dot(data) )[1:]
 
                 #add regularization
-                self.weights1 = self.weights1 + self.step * ((teacher - output).dot(z1.transpose())) - 2 * _lambda * self.weights1
-                self.weights0 = self.weights0 + (self.step * ( z1 * (np.ones((m, n)) - z1) * ( self.weights1.transpose().dot(teacher - output))    ).dot(data) )[1:] - 2 * _lambda * self.weights0
+                #self.weights1 = self.weights1 + self.step * ((teacher - output).dot(z1.transpose())) - 2 * _lambda * self.weights1
+                #self.weights0 = self.weights0 + (self.step * ( z1 * (np.ones((m, n)) - z1) * ( self.weights1.transpose().dot(teacher - output))    ).dot(data) )[1:] - 2 * _lambda * self.weights0
 
+                #add momentum
+                #mm = 0.9
+                #self.weights1 = self.weights1 + self.step * ((teacher - output).dot(z1.transpose())) + mm * self.pweights1
+                #self.pweights1 = self.step * ((teacher - output).dot(z1.transpose()))
+                #self.weights0 = self.weights0 + (self.step * ( z1 * (np.ones((m, n)) - z1) * ( self.weights1.transpose().dot(teacher - output))    ).dot(data) )[1:] + (mm * self.pweights0)
+                #self.pweights0 = (self.step * ( z1 * (np.ones((m, n)) - z1) * ( self.weights1.transpose().dot(teacher - output))    ).dot(data) )[1:]
                 #print " count:", count, "rack : ", l
-
             count = count + 1
 
     def entropy(self, data):
-        numerator = np.exp(self.weights1.dot(data))
+        numerator = np.exp(self.weights2.dot(data))
         denominator = np.sum(numerator, axis = 0)
         return numerator/denominator
 
@@ -114,6 +144,27 @@ class NN:
         z1 = self.sigmoid( (self.weights0).dot(data.transpose()) )
         z1 = np.insert(z1, 0, 1, axis = 0)
         output = self.entropy(z1)
+        return output
+
+    def predict2(self, data):
+        z1 = np.tanh( (self.weights0).dot(data.transpose()) )
+        z1 = np.insert(z1, 0, 1, axis = 0)
+        output = self.entropy(z1)
+        return output
+
+    def predict3(self, data):
+        z1 = (self.weights0).dot(data.transpose())
+        z1[z1 < 0] = 0
+        z1 = np.insert(z1, 0, 1, axis = 0)
+        output = self.entropy(z1)
+        return output
+
+    def predict4(self, data):
+        z1 = self.sigmoid( (self.weights0).dot(data.transpose()) )
+        z1 = np.insert(z1, 0, 1, axis = 0)
+        z2 = self.sigmoid( (self.weights1).dot(z1) )
+        z2 = np.insert(z2, 0, 1, axis = 0)
+        output = self.entropy(z2)
         return output
 
     def E(self, weight, data):
@@ -134,12 +185,12 @@ class NN:
 
 def run():
     model = NN(10e-5, 785, 10, traindata, trainlabels)
-    for i in range(20,21):
-        print "--------------------------------",i*10,"-------------------------------"
-        model.train(i*10,0.0001)
+    for i in range(1,101):
+        print "--------------------------------",10*i,"-------------------------------"
+        model.train(10*i)
         #model.checkgradient()
 
-        output = model.predict(traindata)
+        output = model.predict4(traindata)
         output = np.argmax(output, axis = 0)
         N = 0
         for j in range(len(trainlabels)):
@@ -147,7 +198,7 @@ def run():
                 N = N + 1
         print " Accuracy is : " , (N*1.0/len(trainlabels))*100, "%"
 
-        output = model.predict(testdata)
+        output = model.predict4(testdata)
         output = np.argmax(output, axis = 0)
         N = 0
         for j in range(len(testlabels)):
