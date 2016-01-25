@@ -153,14 +153,16 @@ So, we can conclude that finding the optimal parameter $\theta$ for the above li
 \end{equation}
 
 (c) \\
-T is the target, Y is output. Assuming $Z : 1 \times \ell$
+T is the target, Y is output. Assuming $Z : m \times n$
 
 \begin{equation}
     \begin{array}{rcl}
       	 w_{HO} & = & w_{HO} + \alpha * ( (T - Y)^T \cdot Z) \\
-	 w_{IH} & = & w_{IH} + \alpha X^T  \cdot (  Z * ( (1)_{1 \times \ell} - Z)   * (   (T - Y) \cdot W_{HO}^T )     )
+	 w_{IH} & = & w_{IH} + \alpha * (  Z * ( (1)_{m \times n} - Z)   * (   (T - Y) \cdot W_{HO}^T )     ) \cdot X
     \end{array}
 \end{equation}
+
+* is element-wise multiplication, $\cdot$ is matrix and vector multiplication
 
 (d) \\ i.
 I use scipy to zscore raw data. \\
@@ -181,5 +183,70 @@ iii. First, I use Normal distribution with scale 0.1 to initialize parameters. T
    \centering
    \includegraphics[width=5in]{img/p5.png} 
 \end{figure}
+
+When $\lambda = 0.001$, we can see that the accuracy is about 92\%,worse than that without regularization. When $\lambda = 0.0001$, the accuracy is almost same as that without regularization. I guess it is because when $\lambda$ is too big, then the penalty will account for a lot and influence the original training procedure. Because without regularisation, my accuracy is above 96\%, it is hard to improve.
+
+(f) \\
+\begin{figure}[htbp] %  figure placement: here, top, bottom, or page
+   \centering
+   \includegraphics[width=5in]{img/p6.png} 
+\end{figure}
+
+With momentum, the final accuracy is almost same as before. But the convergence speed is much faster. We can find that momentum simply adds a fraction m of the previous weight update to the current one. As a result, when the gradient keeps pointing in the same direction, this will increase the size of the steps taken towards the minimum.
+
+(g) \\
+
+As for Tanh : the update rule is almost the same, the only difference is $g'(a_j)  = 1 - Tanh(a_j)^2$  \\
+
+As for ReLU : 
+
+\begin{equation}
+    ReLU(x)'=
+   \begin{cases}
+   1 &\mbox{if $x > 0$}\\
+   0 &\mbox{otherwise}
+   \end{cases}
+  \end{equation}
+  
+  So we set $g'(a_j)  = ReLU(a_j)'$ \\
+
+\begin{figure}[htbp] %  figure placement: here, top, bottom, or page
+   \centering
+   \includegraphics[width=5in]{img/p71.png} 
+\end{figure}
+
+\begin{figure}[htbp] %  figure placement: here, top, bottom, or page
+   \centering
+   \includegraphics[width=5in]{img/p72.png} 
+\end{figure}
+
+When $f(z) = Tanh$, test set accuracy is above 95\%. When $f(z) = ReLU(z)$, test set accuracy is about 97.12\%  and train set accuracy is 100\%, so amazing. ReLU is a very useful activation function.
+
+Moreover, ReLU is easier to calculate than Tanh and logistic function. So When I use ReLU, the training procedure is much faster.
+
+\pagebreak
+
+(h) \\
+
+i. It seems that when using more nodes, we can converge faster in each iteration and get more accurate result. Of course, The calculation takes more CPU time. Below is the result of 25,50 and 100 hidden nodes.
+
+\begin{figure}[htbp] %  figure placement: here, top, bottom, or page
+   \centering
+   \includegraphics[width=5in]{img/p81.png} 
+\end{figure}
+
+ii. 
+
+\begin{figure}[htbp] %  figure placement: here, top, bottom, or page
+   \centering
+   \includegraphics[width=5in]{img/p82.png} 
+\end{figure}
+
+Two hidden layers runs slower than one hidden layers.  But they produce close results on test data.
+
+\begin{lstlisting}[frame=single]  % Start your code-block
+
+
+\end{lstlisting}
 
 \end{document}
